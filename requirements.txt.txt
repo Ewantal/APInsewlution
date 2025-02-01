@@ -1,0 +1,12 @@
+flask
+flask-cors
+matplotlib
+scipy
+numpy
+opencv-python
+mediapipe
+pyautogui
+torch
+ultralytics
+segment-anything
+gunicorn
