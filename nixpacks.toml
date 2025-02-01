@@ -1,0 +1,6 @@
+[build]
+install = [
+  "libgl1-mesa-glx",  # For OpenCV
+  "libegl1-mesa",
+  "libx11-dev"
+]
