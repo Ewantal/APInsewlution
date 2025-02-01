@@ -1,6 +1,8 @@
-[build]
 install = [
-  "libgl1-mesa-glx",  # For OpenCV
+  "libgl1-mesa-glx",
   "libegl1-mesa",
-  "libx11-dev"
+  "libx11-dev",
+  "libsm6",  # Added for OpenCV
+  "libxrender1",  # Added for OpenCV
+  "libfontconfig1"  # Added for OpenCV
 ]
